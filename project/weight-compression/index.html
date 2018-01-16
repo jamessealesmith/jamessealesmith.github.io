@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -41,22 +39,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://jamessealesmith.github.io/tags/hugo/">
+  <link rel="canonical" href="https://jamessealesmith.github.io/project/weight-compression/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="James Smith">
-  <meta property="og:url" content="https://jamessealesmith.github.io/tags/hugo/">
-  <meta property="og:title" content="Hugo | James Smith">
-  <meta property="og:description" content="Graduate Student">
+  <meta property="og:url" content="https://jamessealesmith.github.io/project/weight-compression/">
+  <meta property="og:title" content="Weight Compression Gradient-Descent Algorithm | James Smith">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-11-01T00:00:00-05:00">
+  <meta property="article:published_time" content="2018-01-15T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-01-15T00:00:00&#43;00:00">
   
 
   
 
-  <title>Hugo | James Smith</title>
+  <title>Weight Compression Gradient-Descent Algorithm | James Smith</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -165,40 +165,170 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Hugo</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 
-  
-  
-  <div>
-    <h2><a href="https://jamessealesmith.github.io/post/hkn_award/">James Smith chosen to receive national IEEE-HKN outstanding student award</a></h2>
-    <div class="article-style">
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Weight Compression Gradient-Descent Algorithm</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Weight%20Compression%20Gradient-Descent%20Algorithm&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f&amp;title=Weight%20Compression%20Gradient-Descent%20Algorithm"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f&amp;title=Weight%20Compression%20Gradient-Descent%20Algorithm"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Weight%20Compression%20Gradient-Descent%20Algorithm&amp;body=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      <p>A typical trade-off faced by many users of neural networks is that of network size versus
+ease of training. It is desired to train networks using a minimum number of neurons
+given that they are less likely to be over-trained and therefore retain great
+generalization abilities. However, it is often more difficult to train a compact network;
+there are likely few existing solutions and, assuming initial random weights, it can
+take many attempts to perform successful training.</p>
+
+<p>Training compact networks typically fail due to what is known as the diminishing gradient
+problem. This is where a gradient-descent algorithm converges on a local optima due to
+diminishing gradients that disable the learning process. Consider a neuron described by
+the activation function below:</p>
+
+<p><img src="/img/wc/saturated.png" width="2000" height="1000"></p>
+
+<p>The weight update process is a function of the derivative; therefore, when the derivative
+approaches zero, the weight change will also approach zero. When this situation occurs, we
+would like to push the neuron activation back into the non-saturated region, such as:</p>
+
+<p><img src="/img/wc/unsaturated.png" width="2000" height="1000"></p>
+
+<p>This project demonstrates that it is more effective to push these saturated neurons into
+more linear regions rather than restarting with new random weights. The methodology for
+doing this describes the scope of this project. What is the most computationally efficient way to
+return neuron activation into the liner region when local optima are met? How do we determine
+when a local optima has occurred? Do we target individual neurons or the entire network?
+This algorithm explores a new systematic
+approach that can be applied to several different gradient-descent algorithms and is proven
+to find successful solutions more often than competing approaches.</p>
+
+<p>The findings of this project have been submitted to IEEE Transactions on Neural Networks and Learning Systems. We hope to hear back soon!</p>
+
+
       
-      James Smith, senior in electrical engineering, was chosen as the Auburn Department of Electrical and Computer Engineering’s outstanding student for 2017.
       
+      
+
+      
+        
+        
+        
+        
+          <h2>Publications</h2>
+          
+            
+              <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    James S. Smith, Bo Wu, Bogdan M. Wilamoswki</span>.
+  <a href="https://jamessealesmith.github.io/publication/weight-compression/" itemprop="name">Improvement of Second Order Gradient-Descent Algorithm by Adaptable Weight Compression</a>.
+  submitted for publication,&nbsp;2017.
+  <p>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/weight-compression/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+            
+          
+        
+
+        
+        
+        
+        
+      
+
     </div>
   </div>
-  
-  <div>
-    <h2><a href="https://jamessealesmith.github.io/post/outstanding_engineer/">James Smith chosen as Outstanding Electrical and Computer Engineering Student</a></h2>
-    <div class="article-style">
-      
-      James Smith, senior in electrical engineering, was chosen as the Auburn Department of Electrical and Computer Engineering’s outstanding student for 2017.
-      
-    </div>
-  </div>
-  
+</article>
 
-  
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://jamessealesmith.github.io/project/antenna/"><span
+      aria-hidden="true">&larr;</span> Arbitrarily Branched Antenna Optimization by Genetic Algorithms</a></li>
+    
 
+    
+    <li class="next"><a href="https://jamessealesmith.github.io/project/spectral/">Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
 
 </div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -277,6 +407,4 @@
 
   </body>
 </html>
-
-
 
