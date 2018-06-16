@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.34" />
   <meta name="author" content="James Smith">
   <meta name="description" content="Graduate Student">
 
@@ -49,9 +49,9 @@
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-03-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-01-15T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2018-03-15T00:00:00&#43;00:00">
   
 
   
@@ -223,35 +223,34 @@
     
 
     <div class="article-style" itemprop="articleBody">
-      <p>This work explores pooling operations for convolutional neural networks (CNNs). Many common pooling methods
-such as max pooling and mean pooling lose information about the data (i.e., the image
-cannot be restored after pooling). Spectral pooling techniques
-can retain information about data (i.e., the image could be restored after pooling) while
-still achieving the same parameter reduction. Study the pooling effects on the image below:</p>
+      <p>Pooling operations for convolutional neural networks provide the opportunity to greatly reduce network parameters, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods).</p>
+
+<p>Recently, spectral pooling has been utilized to pool data in the spectral domain. By doing so, greater information can be retained with the same network parameter reduction as spatial pooling.</p>
+
+<p>Study the pooling effects on the image below:</p>
 
 <p><img src="/img/spectral/pooling.png" width="2000" height="1000"></p>
 
-<p>We see the affects of max pooling (first row), mean pooling (second row), DFT pooling
-(third row), and DCT pooling (fourth row) when the image is restored. Notice that the
+<p>We see the effects of max pooling (first row), mean pooling (second row), Discrete Fourier Transform (DFT) pooling
+(third row), and Discrete Cosine Transform (DCT) pooling (fourth row) when the image is restored. Notice that the
 bird image is much better retained with the spectral methods.</p>
 
-<p>This project implements pooling using the Discrete Cosine Transform (DCT) instead of the Discrete
-Fourier Transform (DFT) given its ability to pack more information into fewer spectra. The
-project compares different DCT pooling and convolution implementations given that there is no direct Fast Fourier
-Transform (FFT) approach for DCT and, furthermore, the convolution process cannot be done
+<p>This project implements pooling using the DCT instead of the DFT given the DCT&rsquo;s ability to pack more information into fewer spectra. The
+project compares different DCT pooling and convolution implementations, which is important because the convolution process cannot be done
 in the DCT domain (as it can be done in the DFT domain).</p>
 
-<p>This work uses a tensor-based convolutional neural network in Matlab. The CNN
+<p>This work uses a tensor-based convolutional neural network in Matlab (link at bottom of page). The CNN
 framework is described in the figure below:</p>
 
 <p><img src="/img/spectral/DCT_small.png" width="2000" height="1000"></p>
 
-<p>After the code is fine tuned, it will be re-written in Python and be used for big-data problems,
-including fMRI data from the Auburn MRI center. A journal article discussing the theoretical
-framework and results on benchmark problems is currently in preparation to submit for
-publication in IEEE Transaction on Neural Networks and Learning Systems.</p>
+<p>This work was presented at the International Conference on Artificial Intelligence and Soft Computing in Zakopane, Poland (June 2018).</p>
 
-<p>My latest project code can be found at <a href="https://github.com/jamessealesmith/ConvNetDCT" target="_blank">https://github.com/jamessealesmith/ConvNetDCT</a></p>
+<p><a href="https://link.springer.com/chapter/10.1007/978-3-319-91253-0_23" target="_blank">https://link.springer.com/chapter/10.1007/978-3-319-91253-0_23</a></p>
+
+<p>Currently, an updated code base (written for Python Tensorflow) is being prepared for release on Github. My latest project code (Matlab) can be found at <a href="https://github.com/jamessealesmith/ConvNetDCT" target="_blank">https://github.com/jamessealesmith/ConvNetDCT</a></p>
+
+<p>Check out some more work with this project on the Deep Autoencoder page!</p>
 
 
       
@@ -271,11 +270,15 @@ publication in IEEE Transaction on Neural Networks and Learning Systems.</p>
   <span itemprop="author">
     James S. Smith, Bogdan M. Wilamoswki</span>.
   <a href="https://jamessealesmith.github.io/publication/spectral-pooling/" itemprop="name">Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks</a>.
-  in preparation,&nbsp;2018.
+  ICAISC,&nbsp;2018.
   <p>
 
 
 
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://link.springer.com/chapter/10.1007/978-3-319-91253-0_23" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -315,10 +318,13 @@ publication in IEEE Transaction on Neural Networks and Learning Systems.</p>
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://jamessealesmith.github.io/project/weight-compression/"><span
-      aria-hidden="true">&larr;</span> Weight Compression Gradient-Descent Algorithm</a></li>
+    <li class="previous"><a href="https://jamessealesmith.github.io/project/antenna/"><span
+      aria-hidden="true">&larr;</span> Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></li>
     
 
+    
+    <li class="next"><a href="https://jamessealesmith.github.io/project/spectral_autoencoder/">Spectral Methods for Deep Convolutional AutoEncoders <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

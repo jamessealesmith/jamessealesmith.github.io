@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/project/spectral/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <loc>https://jamessealesmith.github.io/project/animal-detection/</loc>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -14,8 +14,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/spectral-pooling/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <loc>https://jamessealesmith.github.io/project/gan-specificity/</loc>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -24,7 +24,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/project/weight-compression/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -32,8 +32,35 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/project/antenna/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <loc>https://jamessealesmith.github.io/publication/weight-compression/</loc>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/spectral_autoencoder/</loc>
+      <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/spectral/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication/spectral-pooling/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -42,6 +69,24 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication/genetic-algorithms/</loc>
+      <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/antenna/</loc>
+      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication/data-visualization/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,33 +97,6 @@
     
       <loc>https://jamessealesmith.github.io/post/hkn_award/</loc>
       <lastmod>2017-11-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/publication/weight-compression/</loc>
-      <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/publication/data-visualization/</loc>
-      <lastmod>2017-09-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/dd_robot/</loc>
-      <lastmod>2017-07-28T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -158,8 +176,18 @@
     
     <url>
     
+      <loc>https://jamessealesmith.github.io/publication_types/1/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jamessealesmith.github.io/publication_types/2/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -178,7 +206,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -207,28 +235,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/tags/neural-networks/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/tags/optimization/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/tags/other/</loc>
-      <lastmod>2017-07-28T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -238,7 +246,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/project/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -248,7 +256,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

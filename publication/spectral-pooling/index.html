@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.30.2" />
+  <meta name="generator" content="Hugo 0.34" />
   <meta name="author" content="James Smith">
   <meta name="description" content="Graduate Student">
 
@@ -51,12 +51,12 @@
   <meta property="og:site_name" content="James Smith">
   <meta property="og:url" content="https://jamessealesmith.github.io/publication/spectral-pooling/">
   <meta property="og:title" content="Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks | James Smith">
-  <meta property="og:description" content="Pooling operations for convolutional neural networks provide the opportunity to greatly reduce data dimensionality, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods). Recently, a new pooling method called spectral pooling has been utilized to pool data in the spectral domain. By doing so, great information retention can be retained with the same parameter reduction as spatial pooling. Additionally, the convolution step can be combined with spectral pooling to further reduce computational load compared to spatial pooling methods. Spectral pooling is currently implemented in the discrete Fourier domain, but this paper investigates implementing spectral pooling in the discrete cosine domain instead. The reason for this is that energy in the cosine domain is concentrated in fewer spectra compared to the Fourier domain.  This paper presents an algorithm to implement spectral pooling in the discrete cosine transform domain and compares results with other pooling methods on a large benchmark dataset. Although discrete cosine transforms spectral pooling layers (DCTSPL) require extra computation compared to normal spectral pooling, the overall time complexity does not change and greater information preservation is obtained. Results of this paper demonstrate that the DCTSPL can perform better than other pooling strategies while using higher subsampling rates.">
+  <meta property="og:description" content="Pooling operations for convolutional neural networks provide the opportunity to greatly reduce network parameters, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods). Recently, spectral pooling has been utilized to pool data in the spectral domain. By doing so, greater information can be retained with the same network parameter reduction as spatial pooling. Spectral pooling is currently implemented in the discrete Fourier domain, but it is found that implementing spectral pooling in the discrete cosine domain concentrates energy in even fewer spectra. Although Discrete Cosine Transforms Spectral Pooling Layers (DCTSPL) require extra computation compared to normal spectral pooling, the overall time complexity does not change and, furthermore, greater information preservation is obtained, producing networks which converge faster and achieve a lower misclassification error.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-01-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-03-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-01-15T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2018-03-15T00:00:00&#43;00:00">
   
 
   
@@ -231,7 +231,7 @@
     
 
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Pooling operations for convolutional neural networks provide the opportunity to greatly reduce data dimensionality, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods). Recently, a new pooling method called spectral pooling has been utilized to pool data in the spectral domain. By doing so, great information retention can be retained with the same parameter reduction as spatial pooling. Additionally, the convolution step can be combined with spectral pooling to further reduce computational load compared to spatial pooling methods. Spectral pooling is currently implemented in the discrete Fourier domain, but this paper investigates implementing spectral pooling in the discrete cosine domain instead. The reason for this is that energy in the cosine domain is concentrated in fewer spectra compared to the Fourier domain.  This paper presents an algorithm to implement spectral pooling in the discrete cosine transform domain and compares results with other pooling methods on a large benchmark dataset. Although discrete cosine transforms spectral pooling layers (DCTSPL) require extra computation compared to normal spectral pooling, the overall time complexity does not change and greater information preservation is obtained. Results of this paper demonstrate that the DCTSPL can perform better than other pooling strategies while using higher subsampling rates.</p>
+    <p class="pub-abstract" itemprop="text">Pooling operations for convolutional neural networks provide the opportunity to greatly reduce network parameters, leading to faster training time and less data overfitting. Unfortunately, many of the common pooling methods such as max pooling and mean pooling lose information about the data (i.e., they are lossy methods). Recently, spectral pooling has been utilized to pool data in the spectral domain. By doing so, greater information can be retained with the same network parameter reduction as spatial pooling. Spectral pooling is currently implemented in the discrete Fourier domain, but it is found that implementing spectral pooling in the discrete cosine domain concentrates energy in even fewer spectra. Although Discrete Cosine Transforms Spectral Pooling Layers (DCTSPL) require extra computation compared to normal spectral pooling, the overall time complexity does not change and, furthermore, greater information preservation is obtained, producing networks which converge faster and achieve a lower misclassification error.</p>
 
     
     <div class="row">
@@ -241,8 +241,8 @@
           <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
           <div class="col-xs-12 col-sm-9">
             
-            <a href="/publication/#2">
-              Journal
+            <a href="/publication/#1">
+              Conference proceedings
             </a>
             
           </div>
@@ -258,7 +258,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">in preparation</div>
+          <div class="col-xs-12 col-sm-9">17th International Conference on Artificial Intelligence and Soft Computing</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -271,7 +271,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            2018-01-15
+            2018-03-15
           </div>
         </div>
       </div>
@@ -290,6 +290,10 @@
 
 
 
+
+<a class="btn btn-primary btn-outline" href="https://link.springer.com/chapter/10.1007/978-3-319-91253-0_23" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -329,9 +333,12 @@
   <ul class="pager">
     
     <li class="previous"><a href="https://jamessealesmith.github.io/publication/genetic-algorithms/"><span
-      aria-hidden="true">&larr;</span> Arbitrarily Branched Antenna Optimization by Genetic Algorithms</a></li>
+      aria-hidden="true">&larr;</span> Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></li>
     
 
+    
+    <li class="next"><a href="https://jamessealesmith.github.io/publication/weight-compression/">Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
