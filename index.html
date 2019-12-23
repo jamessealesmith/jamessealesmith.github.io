@@ -182,7 +182,7 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
   <div class="col-xs-12 col-md-4">
     <div id="profile">
 
@@ -233,13 +233,6 @@
         
         
         <li>
-          <a itemprop="sameAs" href="https://www.zotero.org/jamessealesmith" target="_blank" rel="noopener">
-            <i class="ai ai-zotero big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
           <a itemprop="sameAs" href="https://github.com/jamessealesmith" target="_blank" rel="noopener">
             <i class="fa fa-github big-icon"></i>
           </a>
@@ -255,16 +248,12 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>Hi! I’m pursing a Ph.D. in Machine Learning at Georgia Tech. I graduated with my
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. While working
-under Dr. Bogdan M. Wilamowski, I completed my thesis focused in deep learning algorithms and
-architectures for practical deployment.
-I enjoy getting my hands dirty in machine learning with projects ranging from creating a
-raspberry pi animal detection system to developing a second-order optimization
-algorithm.  Outside of school, I enjoy racing triathlons, marathons, and even
-ultramarathon distance races!</p>
+<p>I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my
+bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University.</p>
 
-<p>This page is still a work in progress. Please <a href="https://jamessealesmith.github.io/files/cv.pdf" target="_blank">read my CV</a> for a complete overview of my work.</p>
+<p>My research involves lifelong machine learning using limited supervision. Specifically, I am working to build algorithms which can rapidly learn to identify new objects from a visual data stream with very few semantic queues. This will benefit any application involving real-time learning, such as autonomous vehicles or fraud detection and monitoring. <a href="https://arxiv.org/abs/1904.02021">My most recent project</a> (under the direction of <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>) looks at learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks.</p>
+
+<p>Please <a href="https://jamessealesmith.github.io/files/cv.pdf" target="_blank">read my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.</p>
 
 
     <div class="row">
@@ -274,11 +263,13 @@ ultramarathon distance races!</p>
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Deep Learning</li>
+          <li>Continual/Lifelong Learning</li>
+          
+          <li>Incremental Learning</li>
+          
+          <li>Unsupervised/Semi-Supervised Learning</li>
           
           <li>Generative Models</li>
-          
-          <li>Image Processing</li>
           
         </ul>
       </div>
@@ -292,7 +283,7 @@ ultramarathon distance races!</p>
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">Ph.D. in Machine Learning, in progress (2018)</p>
+              <p class="course">Ph.D. in Machine Learning, in progress (2022)</p>
               <p class="institution">Georgia Institute of Technology</p>
             </div>
           </li>
@@ -381,15 +372,35 @@ ultramarathon distance races!</p>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
         <div class="card">
           
-          <a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" title="" class="card-image hover-overlay"
+          <a href="https://arxiv.org/abs/1904.02021" title="" class="card-image hover-overlay"
              target="_blank">
-            <img src="/img/animal_detect.png" alt="" class="img-responsive">
+            <img src="/img/stam/upl.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" target="_blank">Animal Detection with Deep Learning</a></h4>
+            <h4><a href="https://arxiv.org/abs/1904.02021" target="_blank">Unsupervised Progressive Learning and the STAM Architecture</a></h4>
             <div class="card-desription">
-              <p>This guide gives instructions and source code to build a portable animal detection system using a Raspberry Pi 3 B+, compatible camera, and other optional hardware. The code works “out-of-the-box,” but this report highlights key directions to pursue a more sophisticated project.</p>
+              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/ssl-regularization/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/ssl-reg/cl_vis.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/ssl-regularization/" >Prototypical Regularization in Deep Neural Networks</a></h4>
+            <div class="card-desription">
+              <p>Exploration of clustering-based regularization for semi-supervised learning</p>
             </div>
           </div>
         </div>
@@ -409,7 +420,7 @@ ultramarathon distance races!</p>
           <div class="card-text">
             <h4><a href="https://jamessealesmith.github.io/project/gan-specificity/" >Understanding Features in Generative Adversarial Networks</a></h4>
             <div class="card-desription">
-              <p>Current project to better understand features in GAN layers</p>
+              <p>Class project to better understand features in GAN layers</p>
             </div>
           </div>
         </div>
@@ -438,12 +449,32 @@ ultramarathon distance races!</p>
       
       
       
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item optimization">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/antenna/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/antenna/ant_struct.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/antenna/" >Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></h4>
+            <div class="card-desription">
+              <p>Optimization project to design thin wire antennas capable of approximating any arbitrary antenna gain pattern</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" title="" class="card-image hover-overlay"
              >
-            <img src="/img/DAE.pdf" alt="" class="img-responsive">
+            <img src="/img/DAE.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
@@ -478,18 +509,21 @@ ultramarathon distance races!</p>
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item optimization">
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
         <div class="card">
           
-          <a href="https://jamessealesmith.github.io/project/antenna/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/antenna/ant_struct.png" alt="" class="img-responsive">
+          <a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/animal_detect.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/antenna/" >Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></h4>
+            <h4><a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" target="_blank">Animal Detection with Deep Learning</a></h4>
             <div class="card-desription">
-              <p>Optimization project to design thin wire antennas capable of approximating any arbitrary antenna gain pattern</p>
+              <p>This guide gives instructions and source code to build a portable animal detection system using a Raspberry Pi 3 B+, compatible camera, and other optional hardware. The code works “out-of-the-box,” but this report highlights key directions to pursue a more sophisticated project.</p>
             </div>
           </div>
         </div>
@@ -536,6 +570,116 @@ ultramarathon distance races!</p>
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
+    James S. Smith, Constantine Dovrolis</span>.
+  <a href="https://jamessealesmith.github.io/publication/stam/" itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</a>.
+  arXiv,&nbsp;2019.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1904.02021" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/stam/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    James S. Smith, Michael E. Baginski</span>.
+  <a href="https://jamessealesmith.github.io/publication/genetic-algorithms/" itemprop="name">Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a>.
+  IEEE TAP,&nbsp;2019.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/8658161" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/antenna/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    Bo Wu, James S. Smith, Bogdan M. Wilamoswki, R. M. Nelms</span>.
+  <a href="https://jamessealesmith.github.io/publication/data-visualization/" itemprop="name">DCMDS: Density-Concentrated Multi-Dimensional Scaling Algorithm for Data Visualization</a>.
+  Journal of Visualization,&nbsp;2018.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://link.springer.com/article/10.1007/s12650-018-0532-0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
     James S. Smith, Bo Wu, Bogdan M. Wilamoswki</span>.
   <a href="https://jamessealesmith.github.io/publication/weight-compression/" itemprop="name">Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a>.
   IEEE TNNLS,&nbsp;2018.
@@ -543,6 +687,10 @@ ultramarathon distance races!</p>
 
 
 
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/8405745" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -604,70 +752,6 @@ ultramarathon distance races!</p>
 
       
     
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    James S. Smith, Michael E. Baginski</span>.
-  <a href="https://jamessealesmith.github.io/publication/genetic-algorithms/" itemprop="name">Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a>.
-  submitted for publication,&nbsp;2018.
-  <p>
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/antenna/">
-  Project
-</a>
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    Bo Wu, James S. Smith, Bogdan M. Wilamoswki</span>.
-  <a href="https://jamessealesmith.github.io/publication/data-visualization/" itemprop="name">DCMDS: Density-Concentrated Multi-Dimensional Scaling Algorithm for Data Visualization</a>.
-  submitted for publication,&nbsp;2018.
-  <p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-</div>
-
-      
-    
 
   </div>
 </div>
@@ -691,7 +775,9 @@ ultramarathon distance races!</p>
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>I was a Graduate Teaching Assistant for the following courses at Auburn University:</p>
+    <p>I was a Graduate Teaching Assistant for <a href="https://www.ece.gatech.edu/courses/course_outline/ECE6258">ECE 6258</a>: Digital Image Processing at Georgia Tech (Fall 2018).</p>
+
+<p>Additionally, I was a Graduate Teaching Assistant for the following courses at Auburn University:</p>
 
 <ul>
 <li>ELEC 2110: Electric Circuit Analysis (Summer 2017)</li>
@@ -733,6 +819,72 @@ ultramarathon distance races!</p>
       
 
       
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+
+      
+      
+        
+        
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://jamessealesmith.github.io/post/machine-learning-spotlight/" itemprop="url">Georgia Tech Student Spotlight</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-11-01 00:00:00 -0500 CDT" itemprop="datePublished">
+      Nov 1, 2019
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>I was a recent student spotlight for ML@GT</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://jamessealesmith.github.io/post/machine-learning-spotlight/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+
       
 
         
@@ -900,17 +1052,12 @@ ultramarathon distance races!</p>
       
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:jss0036@auburn.edu">jss0036@auburn.edu</a></span>
+        <span id="person-email" itemprop="email"><a href="mailto:jamessealesmith%20at%20gatech%20dot%20edu">jamessealesmith at gatech dot edu</a></span>
       </li>
       
 
       
 
-      
-      <li>
-        <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:%28256%29%20714-7168">(256) 714-7168</a></span>
-      </li>
       
 
       

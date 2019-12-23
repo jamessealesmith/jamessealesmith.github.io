@@ -17,6 +17,11 @@
     
   
   
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
@@ -39,24 +44,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://jamessealesmith.github.io/project/animal-detection/">
+  <link rel="canonical" href="https://jamessealesmith.github.io/publication/stam/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="James Smith">
-  <meta property="og:url" content="https://jamessealesmith.github.io/project/animal-detection/">
-  <meta property="og:title" content="Animal Detection with Deep Learning | James Smith">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://jamessealesmith.github.io/publication/stam/">
+  <meta property="og:title" content="Unsupervised Progressive Learning and the STAM Architecture | James Smith">
+  <meta property="og:description" content="We first pose the Unsupervised Progressive Learning (UPL) problem: learning salient representations from a non-stationary stream of unlabeled data in which the number of object classes increases with time. If some limited labeled data is also available, those representations can be associated with specific classes, thus enabling classification tasks. To solve the UPL problem, we propose an architecture that involves an online clustering module, called Self-Taught Associative Memory (STAM). Layered hierarchies of STAM modules learn based on a combination of online clustering, novelty detection, forgetting outliers, and storing only prototypical representations rather than specific examples. The goal of this paper is to introduce the UPL problem, describe the STAM architecture, and evaluate the latter in the UPL context.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2014-06-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-04-03T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2014-06-15T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-04-03T00:00:00&#43;00:00">
   
 
-  <title>Animal Detection with Deep Learning | James Smith</title>
+  
+
+  <title>Unsupervised Progressive Learning and the STAM Architecture | James Smith</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -164,52 +169,53 @@
   </div>
 </nav>
 
-
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">Animal Detection with Deep Learning</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
+  <div class="container pub-title">
+    <h1 itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      James S. Smith, Constantine Dovrolis
+      
+    </span>
+    <span class="pull-right">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Animal%20Detection%20with%20Deep%20Learning&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fanimal-detection%2f"
+         href="https://twitter.com/intent/tweet?text=Unsupervised%20Progressive%20Learning%20and%20the%20STAM%20Architecture&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fstam%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fanimal-detection%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fstam%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fanimal-detection%2f&amp;title=Animal%20Detection%20with%20Deep%20Learning"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fstam%2f&amp;title=Unsupervised%20Progressive%20Learning%20and%20the%20STAM%20Architecture"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fanimal-detection%2f&amp;title=Animal%20Detection%20with%20Deep%20Learning"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fstam%2f&amp;title=Unsupervised%20Progressive%20Learning%20and%20the%20STAM%20Architecture"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Animal%20Detection%20with%20Deep%20Learning&amp;body=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fanimal-detection%2f">
+         href="mailto:?subject=Unsupervised%20Progressive%20Learning%20and%20the%20STAM%20Architecture&amp;body=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fstam%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -217,44 +223,119 @@
 </div>
 
 
-      </span>
-    </div>
-
-    
-    <a class="btn btn-primary btn-outline" href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" target="_blank" rel="noopener">Go to Project Site</a>
-    
-
-    <div class="article-style" itemprop="articleBody">
-      
-
-      
-      
-      
-
-      
-        
-        
-        
-        
-
-        
-        
-        
-        
-      
-
-    </div>
+    </span>
   </div>
-</article>
+
+  <div class="article-container">
+
+    
+
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We first pose the Unsupervised Progressive Learning (UPL) problem: learning salient representations from a non-stationary stream of unlabeled data in which the number of object classes increases with time. If some limited labeled data is also available, those representations can be associated with specific classes, thus enabling classification tasks. To solve the UPL problem, we propose an architecture that involves an online clustering module, called Self-Taught Associative Memory (STAM). Layered hierarchies of STAM modules learn based on a combination of online clustering, novelty detection, forgetting outliers, and storing only prototypical representations rather than specific examples. The goal of this paper is to introduce the UPL problem, describe the STAM architecture, and evaluate the latter in the UPL context.</p>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="/publication/#3">
+              Work in progress
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">arXiv prepring</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            2019-04-03
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/abs/1904.02021" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="/project/stam/">
+  Project
+</a>
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+  </div>
+</div>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
-
+    <li class="previous"><a href="https://jamessealesmith.github.io/publication/genetic-algorithms/"><span
+      aria-hidden="true">&larr;</span> Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></li>
     
-    <li class="next"><a href="https://jamessealesmith.github.io/project/spectral/">Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks <span
-      aria-hidden="true">&rarr;</span></a></li>
+
     
   </ul>
 </nav>
@@ -325,6 +406,17 @@
     
 
     
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
     
 
     
