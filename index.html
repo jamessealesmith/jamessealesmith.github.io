@@ -8,7 +8,7 @@
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.34" />
   <meta name="author" content="James Smith">
-  <meta name="description" content="Graduate Student">
+  <meta name="description" content="PhD Student">
 
   
   
@@ -27,7 +27,7 @@
 
   
 
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7cMerriweather%7cRoboto&#43;Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
   
   <link rel="stylesheet" href="/styles.css">
   
@@ -43,10 +43,13 @@
 
   <meta property="twitter:card" content="summary_large_image">
   
+  <meta property="twitter:site" content="@https://twitter.com/jamessealesmith">
+  <meta property="twitter:creator" content="@https://twitter.com/jamessealesmith">
+  
   <meta property="og:site_name" content="James Smith">
   <meta property="og:url" content="https://jamessealesmith.github.io/">
   <meta property="og:title" content="James Smith">
-  <meta property="og:description" content="Graduate Student">
+  <meta property="og:description" content="PhD Student">
   <meta property="og:locale" content="en-us">
   
   <meta property="og:updated_time" content="2017-10-15T00:00:00-05:00">
@@ -193,7 +196,7 @@
 
       <div class="portrait-title">
         <h2 itemprop="name">James Smith</h2>
-        <h3 itemprop="jobTitle">Graduate Student</h3>
+        <h3 itemprop="jobTitle">PhD Student</h3>
 
         
         
@@ -219,7 +222,14 @@
         
         
         <li>
-          <a itemprop="sameAs" href="mailto:jss0036@auburn.edu" target="_blank" rel="noopener">
+          <a itemprop="sameAs" href="https://twitter.com/jamessealesmith" target="_blank" rel="noopener">
+            <i class="fa fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:jamessealesmith@gatech.edu" target="_blank" rel="noopener">
             <i class="fa fa-envelope big-icon"></i>
           </a>
         </li>
@@ -228,13 +238,6 @@
         <li>
           <a itemprop="sameAs" href="https://www.linkedin.com/in/jamessealesmith/" target="_blank" rel="noopener">
             <i class="fa fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        <li>
-          <a itemprop="sameAs" href="https://github.com/jamessealesmith" target="_blank" rel="noopener">
-            <i class="fa fa-github big-icon"></i>
           </a>
         </li>
         
@@ -248,12 +251,13 @@
 
 <h1 id="biography">Biography</h1>
 
-<p>I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University.</p>
-
-<p>My research involves lifelong machine learning using limited supervision. Specifically, I am working to build algorithms which can rapidly learn to identify new objects from a visual data stream with very few semantic queues. This will benefit any application involving real-time learning, such as autonomous vehicles or fraud detection and monitoring. <a href="https://arxiv.org/abs/1904.02021">My most recent project</a> (under the direction of <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>) looks at learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks.</p>
-
-<p>Please <a href="https://jamessealesmith.github.io/files/cv.pdf" target="_blank">read my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.</p>
+<div style="text-align: justify">
+I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my 
+bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">see my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.
+<br>
+<br>
+My research is focussed on lifelong/continual computer vision, where agents must learn continuously and adaptability from a visual data-stream which changes over time. This requires incremental knowledge acquisition and avoiding a phenomena termed "catastrophic forgetting," where deep neural networks overwrite information learned from previous experiences when learning a new task. In my most recent work (under review), we explore realistic semi-supervised continual learning, where data distributions reflect object class correlations between, and among, labeled and unlabeled data distributions. I am currently working on coreset-free online continual learning, where an agent must learn continuosly with no storage of past training examples (as required by many popular methods). This has important use cases such as data privacy, limited memory budgets, etc.
+</div>
 
 
     <div class="row">
@@ -263,13 +267,11 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Continual/Lifelong Learning</li>
-          
-          <li>Incremental Learning</li>
+          <li>Lifelong/Continual Learning</li>
           
           <li>Unsupervised/Semi-Supervised Learning</li>
           
-          <li>Generative Models</li>
+          <li>Knowledge Distillation</li>
           
         </ul>
       </div>
@@ -319,231 +321,6 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
   
   
   
-  <section id="projects" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-    
-    <span class="hidden default-project-filter">*</span>
-    
-
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar">
-          <div class="btn-group">
-            
-              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
-            
-              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
-            
-              <a href="#" data-filter=".optimization" class="btn btn-primary btn-large">Optimization</a>
-            
-              <a href="#" data-filter=".other" class="btn btn-primary btn-large">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    
-
-    <div class="row isotope projects-container js-layout-masonry">
-
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://arxiv.org/abs/1904.02021" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/img/stam/upl.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://arxiv.org/abs/1904.02021" target="_blank">Unsupervised Progressive Learning and the STAM Architecture</a></h4>
-            <div class="card-desription">
-              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/ssl-regularization/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/ssl-reg/cl_vis.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/ssl-regularization/" >Prototypical Regularization in Deep Neural Networks</a></h4>
-            <div class="card-desription">
-              <p>Exploration of clustering-based regularization for semi-supervised learning</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/gan-specificity/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/transferred_final.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/gan-specificity/" >Understanding Features in Generative Adversarial Networks</a></h4>
-            <div class="card-desription">
-              <p>Class project to better understand features in GAN layers</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/weight-compression/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/wc/neuron_ex.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/weight-compression/" >Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a></h4>
-            <div class="card-desription">
-              <p>Gradient-descent algorithm purposed to evade the vanishing gradient problem</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item optimization">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/antenna/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/antenna/ant_struct.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/antenna/" >Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></h4>
-            <div class="card-desription">
-              <p>Optimization project to design thin wire antennas capable of approximating any arbitrary antenna gain pattern</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/DAE.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" >Spectral Methods for Deep Convolutional AutoEncoders</a></h4>
-            <div class="card-desription">
-              <p>Spectral pooling and upsampling techniques for deep convolutional autoencoders</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/spectral/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/spectral/DCT.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/spectral/" >Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks</a></h4>
-            <div class="card-desription">
-              <p>Pooling technique for CNNs utilizing DCT in the spectral domain</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/img/animal_detect.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://docs.google.com/document/d/1iC8N4RjFvCED4-SugGXBMtMFWmGjby4RjYIr21ilQgQ/edit?usp=sharing" target="_blank">Animal Detection with Deep Learning</a></h4>
-            <div class="card-desription">
-              <p>This guide gives instructions and source code to build a portable animal detection system using a Raspberry Pi 3 B+, compatible camera, and other optional hardware. The code works “out-of-the-box,” but this report highlights key directions to pursue a more sophisticated project.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
   <section id="publications" class="home-section">
     <div class="container">
       
@@ -553,7 +330,7 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
+    <h1>Publications</h1>
     
     
   </div>
@@ -570,9 +347,9 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
-    James S. Smith, Constantine Dovrolis</span>.
+    James S. Smith, Seth Baer, Cameron Taylor, Constantine Dovrolis</span>.
   <a href="https://jamessealesmith.github.io/publication/stam/" itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</a>.
-  arXiv,&nbsp;2019.
+  arXiv,&nbsp;2020.
   <p>
 
 
@@ -751,6 +528,205 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
 </div>
 
       
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span class="hidden default-project-filter">*</span>
+    
+
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+            
+              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+            
+              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
+            
+              <a href="#" data-filter=".optimization" class="btn btn-primary btn-large">Optimization</a>
+            
+              <a href="#" data-filter=".other" class="btn btn-primary btn-large">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/stam/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/stam/upl.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/stam/" >Unsupervised Progressive Learning and the STAM Architecture</a></h4>
+            <div class="card-desription">
+              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/ssl-regularization/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/ssl-reg/cl_vis.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/ssl-regularization/" >Prototypical Regularization in Deep Neural Networks</a></h4>
+            <div class="card-desription">
+              <p>Exploration of clustering-based regularization for semi-supervised learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/gan-specificity/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/transferred_final.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/gan-specificity/" >Understanding Features in Generative Adversarial Networks</a></h4>
+            <div class="card-desription">
+              <p>Class project to better understand features in GAN layers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/weight-compression/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/wc/neuron_ex.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/weight-compression/" >Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a></h4>
+            <div class="card-desription">
+              <p>Gradient-descent algorithm purposed to evade the vanishing gradient problem</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item optimization">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/antenna/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/antenna/ant_struct.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/antenna/" >Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></h4>
+            <div class="card-desription">
+              <p>Optimization project to design thin wire antennas capable of approximating any arbitrary antenna gain pattern</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/DAE.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" >Spectral Methods for Deep Convolutional AutoEncoders</a></h4>
+            <div class="card-desription">
+              <p>Spectral pooling and upsampling techniques for deep convolutional autoencoders</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/spectral/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/spectral/DCT.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/spectral/" >Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks</a></h4>
+            <div class="card-desription">
+              <p>Pooling technique for CNNs utilizing DCT in the spectral domain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
     
 
   </div>
@@ -1085,7 +1061,7 @@ bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 James Smith &middot; 
+      &copy; 2020 James Smith &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://jamessealesmith.github.io/project/stam/</loc>
+      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication/stam/</loc>
+      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jamessealesmith.github.io/post/machine-learning-spotlight/</loc>
       <lastmod>2019-11-01T00:00:00-05:00</lastmod>
     </url>
@@ -14,26 +32,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/project/stam/</loc>
-      <lastmod>2019-05-31T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/project/ssl-regularization/</loc>
       <lastmod>2019-04-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/publication/stam/</loc>
-      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -203,15 +203,6 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/project/animal-detection/</loc>
-      <lastmod>2014-06-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/publication_types/1/</loc>
       <lastmod>2018-06-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -233,7 +224,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/3/</loc>
-      <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -252,7 +243,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/tags/deep-learning/</loc>
-      <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -292,7 +283,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/project/</loc>
-      <lastmod>2019-05-31T00:00:00+00:00</lastmod>
+      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
