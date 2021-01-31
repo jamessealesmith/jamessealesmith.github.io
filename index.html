@@ -253,10 +253,10 @@
 
 <div style="text-align: justify">
 I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my 
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">see my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work.
+bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">see my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work. <a href="https://arxiv.org/abs/2101.09536">Check out my most recent work on realistic semi-supervised continual learning</a>!
 <br>
 <br>
-My research is focussed on lifelong/continual computer vision, where agents must learn continuously and adaptability from a visual data-stream which changes over time. This requires incremental knowledge acquisition and avoiding a phenomena termed "catastrophic forgetting," where deep neural networks overwrite information learned from previous experiences when learning a new task. In my most recent work (under review), we explore realistic semi-supervised continual learning, where data distributions reflect object class correlations between, and among, labeled and unlabeled data distributions. I am currently working on coreset-free online continual learning, where an agent must learn continuously with no storage of past training examples (significant because many popular methods rely on stored examples of past training data). This has important use cases such as data privacy, limited memory budgets, etc.
+My research is focused on lifelong/continual computer vision, where agents must learn continuously and adaptability from a visual data-stream which changes over time. This requires incremental knowledge acquisition and avoiding a phenomenon termed "catastrophic forgetting," where deep neural networks overwrite information learned from previous experiences when learning a new task. I am specifically interested in a setting where knowledge must be retained or distilled without access to the original training data. This is important because training data is not always conveniently retained and easy to access, due to privacy/legal concerns or because it was <a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html">collected at scale</a>.
 </div>
 
 
@@ -269,9 +269,9 @@ My research is focussed on lifelong/continual computer vision, where agents must
           
           <li>Lifelong/Continual Learning</li>
           
-          <li>Unsupervised/Semi-Supervised Learning</li>
-          
           <li>Knowledge Distillation</li>
+          
+          <li>Unsupervised/Semi-Supervised Learning</li>
           
         </ul>
       </div>
@@ -347,15 +347,53 @@ My research is focussed on lifelong/continual computer vision, where agents must
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
-    James S. Smith, Seth Baer, Cameron Taylor, Constantine Dovrolis</span>.
-  <a href="https://jamessealesmith.github.io/publication/stam/" itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</a>.
-  arXiv,&nbsp;2020.
+    James Smith, Jonathan Balloch, Yen-Chang Hsu, Zsolt Kira</span>.
+  <a href="https://jamessealesmith.github.io/publication/sscl/" itemprop="name">Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a>.
+  arXiv preprint arXiv:2101.09536,&nbsp;2021.
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1904.02021" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2101.09536.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/sscl/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
+    James S. Smith, Seth Baer, Cameron Taylor, Constantine Dovrolis</span>.
+  <a href="https://jamessealesmith.github.io/publication/stam/" itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</a>.
+  arXiv preprint arXiv:1904.02021,&nbsp;2020.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/1904.02021.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -567,9 +605,9 @@ My research is focussed on lifelong/continual computer vision, where agents must
             
               <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
             
-              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-large">Deep Learning</a>
+              <a href="#" data-filter=".continual-learning" class="btn btn-primary btn-large">Continual Learning</a>
             
-              <a href="#" data-filter=".optimization" class="btn btn-primary btn-large">Optimization</a>
+              <a href="#" data-filter=".low-supervision" class="btn btn-primary btn-large">Low Supervision</a>
             
               <a href="#" data-filter=".other" class="btn btn-primary btn-large">Other</a>
             
@@ -587,7 +625,27 @@ My research is focussed on lifelong/continual computer vision, where agents must
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item low-supervision continual-learning">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/sscl/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/sscl/DM_Model_Updated.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/sscl/" >Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a></h4>
+            <div class="card-desription">
+              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning low-supervision">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/stam/" title="" class="card-image hover-overlay"
@@ -607,7 +665,7 @@ My research is focussed on lifelong/continual computer vision, where agents must
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item low-supervision">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/ssl-regularization/" title="" class="card-image hover-overlay"
@@ -647,7 +705,7 @@ My research is focussed on lifelong/continual computer vision, where agents must
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item other">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/weight-compression/" title="" class="card-image hover-overlay"
@@ -667,7 +725,7 @@ My research is focussed on lifelong/continual computer vision, where agents must
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item optimization">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item other">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/antenna/" title="" class="card-image hover-overlay"
@@ -687,27 +745,7 @@ My research is focussed on lifelong/continual computer vision, where agents must
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/DAE.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/spectral_autoencoder/" >Spectral Methods for Deep Convolutional AutoEncoders</a></h4>
-            <div class="card-desription">
-              <p>Spectral pooling and upsampling techniques for deep convolutional autoencoders</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item other">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/spectral/" title="" class="card-image hover-overlay"

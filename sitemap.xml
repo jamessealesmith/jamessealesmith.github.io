@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://jamessealesmith.github.io/project/sscl/</loc>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication/sscl/</loc>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jamessealesmith.github.io/project/stam/</loc>
       <lastmod>2020-05-10T00:00:00+00:00</lastmod>
     </url>
@@ -97,15 +115,6 @@
     
       <loc>https://jamessealesmith.github.io/project/antenna/</loc>
       <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/spectral_autoencoder/</loc>
-      <lastmod>2018-04-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -224,7 +233,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/3/</loc>
-      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -242,8 +251,18 @@
     
     <url>
     
+      <loc>https://jamessealesmith.github.io/tags/continual-learning/</loc>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jamessealesmith.github.io/tags/deep-learning/</loc>
-      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -272,8 +291,18 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/tags/optimization/</loc>
-      <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+      <loc>https://jamessealesmith.github.io/tags/low-supervision/</loc>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/tags/other/</loc>
+      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -283,7 +312,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/project/</loc>
-      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
