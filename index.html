@@ -52,7 +52,7 @@
   <meta property="og:description" content="PhD Student">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-10-15T00:00:00-05:00">
+  <meta property="og:updated_time" content="2017-10-15T00:00:00-04:00">
   
 
   
@@ -208,12 +208,6 @@
           </a>
         </h3>
         
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.eng.auburn.edu/ece/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">Auburn University</span>
-          </a>
-        </h3>
-        
       </div>
 
       <link itemprop="url" href="https://jamessealesmith.github.io/">
@@ -249,14 +243,13 @@
 
     
 
-<h1 id="biography">Biography</h1>
+<h1 id="about-me">About Me</h1>
 
 <div style="text-align: justify">
-I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. I graduated with my 
-bachelor’s (May 2017) and master’s (May 2018) degrees from Auburn University. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">see my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work. <a href="https://arxiv.org/abs/2101.09536">Check out my most recent work on realistic semi-supervised continual learning</a>!
+I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">read my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work. <b> Recent news:</b> our work on <a href="https://arxiv.org/abs/2101.09536">realistic semi-supervised continual learning</a> was accepted to <b> IJCNN 2021</b> and our work on <a href="https://arxiv.org/abs/1904.02021">unsupervised progressive learning</a> was accepted to <b> IJCAI 2021!</b>
 <br>
 <br>
-My research is focused on lifelong/continual computer vision, where agents must learn continuously and adaptability from a visual data-stream which changes over time. This requires incremental knowledge acquisition and avoiding a phenomenon termed "catastrophic forgetting," where deep neural networks overwrite information learned from previous experiences when learning a new task. I am specifically interested in a setting where knowledge must be retained or distilled without access to the original training data. This is important because training data is not always conveniently retained and easy to access, due to privacy/legal concerns or because it was <a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html">collected at scale</a>.
+I want to build vision systems which learn from data that is from multiple sources and distributions, where each source of this data is an incomplete sample of the full "true" data distribution. One example of this is lifelong/continual learning, where agents must learn continuously and adaptability from a visual data-stream which changes over time. Another example is federated learning, where data learning takes place on multiple edge devices. I am specifically interested in solutions where knowledge is retained or distilled with limited/no access to the original training data. This is important because we might not be able to store training data due to <b>privacy/legal concerns</b> or because it was <b>collected at scale from datastreams which can no longer be accessed.</b>
 </div>
 
 
@@ -271,7 +264,9 @@ My research is focused on lifelong/continual computer vision, where agents must 
           
           <li>Knowledge Distillation</li>
           
-          <li>Unsupervised/Semi-Supervised Learning</li>
+          <li>Unsupervised &amp; Semi-Supervised Learning</li>
+          
+          <li>Federated Learning</li>
           
         </ul>
       </div>
@@ -347,15 +342,15 @@ My research is focused on lifelong/continual computer vision, where agents must 
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
-    James Smith, Jonathan Balloch, Yen-Chang Hsu, Zsolt Kira</span>.
-  <a href="https://jamessealesmith.github.io/publication/sscl/" itemprop="name">Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a>.
-  arXiv preprint arXiv:2101.09536,&nbsp;2021.
+    James Smith, Yen-Chang Hsu, Jonathan Balloch, Yilin Shen, Hongxia Jin, Zsolt Kira</span>.
+  <a href="https://jamessealesmith.github.io/publication/dfcil/" itemprop="name">Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning</a>.
+  arXiv preprint arXiv:2106.09701,&nbsp;2021.
   <p>
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2101.09536.pdf" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2106.09701.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -365,10 +360,6 @@ My research is focused on lifelong/continual computer vision, where agents must 
 
 
 
-
-<a class="btn btn-primary btn-outline btn-xs" href="/project/sscl/">
-  Project
-</a>
 
 
 
@@ -385,9 +376,9 @@ My research is focused on lifelong/continual computer vision, where agents must 
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
-    James S. Smith, Seth Baer, Cameron Taylor, Constantine Dovrolis</span>.
+    James Smith, Cameron Taylor, Seth Baer, Constantine Dovrolis</span>.
   <a href="https://jamessealesmith.github.io/publication/stam/" itemprop="name">Unsupervised Progressive Learning and the STAM Architecture</a>.
-  arXiv preprint arXiv:1904.02021,&nbsp;2020.
+  International Joint Conference on Artificial Intelligent (IJCAI),&nbsp;2021.
   <p>
 
 
@@ -423,9 +414,47 @@ My research is focused on lifelong/continual computer vision, where agents must 
         <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
   <span itemprop="author">
+    James Smith, Jonathan Balloch, Yen-Chang Hsu, Zsolt Kira</span>.
+  <a href="https://jamessealesmith.github.io/publication/sscl/" itemprop="name">Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a>.
+  International  Joint Conference on Neural Networks (IJCNN),&nbsp;2021.
+  <p>
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/pdf/2101.09536.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/sscl/">
+  Project
+</a>
+
+
+
+
+
+
+
+</p>
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="author">
     James S. Smith, Michael E. Baginski</span>.
   <a href="https://jamessealesmith.github.io/publication/genetic-algorithms/" itemprop="name">Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a>.
-  IEEE TAP,&nbsp;2019.
+  IEEE Transacations on Antennas and Propagation,&nbsp;2019.
   <p>
 
 
@@ -497,7 +526,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
   <span itemprop="author">
     James S. Smith, Bo Wu, Bogdan M. Wilamoswki</span>.
   <a href="https://jamessealesmith.github.io/publication/weight-compression/" itemprop="name">Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a>.
-  IEEE TNNLS,&nbsp;2018.
+  IEEE Transactions on Neural Networks and Learning Systems,&nbsp;2018.
   <p>
 
 
@@ -535,7 +564,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
   <span itemprop="author">
     James S. Smith, Bogdan M. Wilamoswki</span>.
   <a href="https://jamessealesmith.github.io/publication/spectral-pooling/" itemprop="name">Discrete Cosine Transform Spectral Pooling Layers for Convolutional Neural Networks</a>.
-  ICAISC,&nbsp;2018.
+  International Conference on Artificial Intelligence and Soft Computing (ICAISC),&nbsp;2018.
   <p>
 
 
@@ -607,8 +636,6 @@ My research is focused on lifelong/continual computer vision, where agents must 
             
               <a href="#" data-filter=".continual-learning" class="btn btn-primary btn-large">Continual Learning</a>
             
-              <a href="#" data-filter=".low-supervision" class="btn btn-primary btn-large">Low Supervision</a>
-            
               <a href="#" data-filter=".other" class="btn btn-primary btn-large">Other</a>
             
           </div>
@@ -625,7 +652,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item low-supervision continual-learning">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/sscl/" title="" class="card-image hover-overlay"
@@ -636,7 +663,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
           <div class="card-text">
             <h4><a href="https://jamessealesmith.github.io/project/sscl/" >Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a></h4>
             <div class="card-desription">
-              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
+              <p>Realistic Semi-Supervised Continual Learning, where data distributions reflect object class correlations between, and among, the labeled and unlabeled data distributions</p>
             </div>
           </div>
         </div>
@@ -645,7 +672,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
       
       
       
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning low-supervision">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning">
         <div class="card">
           
           <a href="https://jamessealesmith.github.io/project/stam/" title="" class="card-image hover-overlay"
@@ -657,46 +684,6 @@ My research is focused on lifelong/continual computer vision, where agents must 
             <h4><a href="https://jamessealesmith.github.io/project/stam/" >Unsupervised Progressive Learning and the STAM Architecture</a></h4>
             <div class="card-desription">
               <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item low-supervision">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/ssl-regularization/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/ssl-reg/cl_vis.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/ssl-regularization/" >Prototypical Regularization in Deep Neural Networks</a></h4>
-            <div class="card-desription">
-              <p>Exploration of clustering-based regularization for semi-supervised learning</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/gan-specificity/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/transferred_final.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/gan-specificity/" >Understanding Features in Generative Adversarial Networks</a></h4>
-            <div class="card-desription">
-              <p>Class project to better understand features in GAN layers</p>
             </div>
           </div>
         </div>
@@ -864,7 +851,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
 
   <span class="article-date">
     
-    <time datetime="2019-11-01 00:00:00 -0500 CDT" itemprop="datePublished">
+    <time datetime="2019-11-01 00:00:00 -0400 EDT" itemprop="datePublished">
       Nov 1, 2019
     </time>
   </span>
@@ -930,7 +917,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
 
   <span class="article-date">
     
-    <time datetime="2017-11-01 00:00:00 -0500 CDT" itemprop="datePublished">
+    <time datetime="2017-11-01 00:00:00 -0400 EDT" itemprop="datePublished">
       Nov 1, 2017
     </time>
   </span>
@@ -998,7 +985,7 @@ My research is focused on lifelong/continual computer vision, where agents must 
     
         Last updated on
     
-    <time datetime="2017-04-02 00:00:00 -0500 CDT" itemprop="datePublished">
+    <time datetime="2017-04-02 00:00:00 -0400 EDT" itemprop="datePublished">
       Sep 3, 2017
     </time>
   </span>

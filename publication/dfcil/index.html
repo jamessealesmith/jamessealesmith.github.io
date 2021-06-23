@@ -17,6 +17,11 @@
     
   
   
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
@@ -39,7 +44,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://jamessealesmith.github.io/project/weight-compression/">
+  <link rel="canonical" href="https://jamessealesmith.github.io/publication/dfcil/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -47,19 +52,19 @@
   <meta property="twitter:creator" content="@https://twitter.com/jamessealesmith">
   
   <meta property="og:site_name" content="James Smith">
-  <meta property="og:url" content="https://jamessealesmith.github.io/project/weight-compression/">
-  <meta property="og:title" content="Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression | James Smith">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://jamessealesmith.github.io/publication/dfcil/">
+  <meta property="og:title" content="Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning | James Smith">
+  <meta property="og:description" content="Modern computer vision applications suffer from catastrophic forgetting when incrementally learning new concepts over time. The most successful approaches to alleviate this forgetting require extensive replay of previously seen data, which is problematic when memory constraints or data legality concerns exist. In this work, we consider the high-impact problem of Data-Free Class-Incremental Learning (DFCIL), where an incremental learning agent must learn new concepts over time without storing generators or training data from past tasks. One approach for DFCIL is to replay synthetic images produced by inverting a frozen copy of the learner&#39;s classification model, but we show this approach fails for common class-incremental benchmarks when using standard distillation strategies. We diagnose the cause of this failure and propose a novel incremental distillation strategy for DFCIL, contributing a modified cross-entropy training and importance-weighted feature distillation, and show that our method results in up to a 25.1% increase in final task accuracy (absolute difference) compared to SOTA DFCIL methods for common class-incremental benchmarks. Our method even outperforms several standard replay based methods which store a coreset of images.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-05-31T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2021-06-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-05-31T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2021-06-15T00:00:00&#43;00:00">
   
 
-  <title>Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression | James Smith</title>
+  
+
+  <title>Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning | James Smith</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -167,52 +172,53 @@
   </div>
 </nav>
 
-
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
+  <div class="container pub-title">
+    <h1 itemprop="name">Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      James Smith, Yen-Chang Hsu, Jonathan Balloch, Yilin Shen, Hongxia Jin, Zsolt Kira
+      
+    </span>
+    <span class="pull-right">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Neural%20Network%20Training%20with%20Levenberg-Marquardt%20and%20Adaptable%20Weight%20Compression&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f"
+         href="https://twitter.com/intent/tweet?text=Always%20Be%20Dreaming%3a%20A%20New%20Approach%20for%20Data-Free%20Class-Incremental%20Learning&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fdfcil%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fdfcil%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f&amp;title=Neural%20Network%20Training%20with%20Levenberg-Marquardt%20and%20Adaptable%20Weight%20Compression"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fdfcil%2f&amp;title=Always%20Be%20Dreaming%3a%20A%20New%20Approach%20for%20Data-Free%20Class-Incremental%20Learning"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f&amp;title=Neural%20Network%20Training%20with%20Levenberg-Marquardt%20and%20Adaptable%20Weight%20Compression"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fdfcil%2f&amp;title=Always%20Be%20Dreaming%3a%20A%20New%20Approach%20for%20Data-Free%20Class-Incremental%20Learning"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Neural%20Network%20Training%20with%20Levenberg-Marquardt%20and%20Adaptable%20Weight%20Compression&amp;body=https%3a%2f%2fjamessealesmith.github.io%2fproject%2fweight-compression%2f">
+         href="mailto:?subject=Always%20Be%20Dreaming%3a%20A%20New%20Approach%20for%20Data-Free%20Class-Incremental%20Learning&amp;body=https%3a%2f%2fjamessealesmith.github.io%2fpublication%2fdfcil%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -220,63 +226,75 @@
 </div>
 
 
-      </span>
-    </div>
+    </span>
+  </div>
+
+  <div class="article-container">
 
     
 
-    <div class="article-style" itemprop="articleBody">
-      <p>This work has been published in <a href="https://ieeexplore.ieee.org/document/8405745">IEEE Transactions on Neural Networks and Learning Systems</a>.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Modern computer vision applications suffer from catastrophic forgetting when incrementally learning new concepts over time. The most successful approaches to alleviate this forgetting require extensive replay of previously seen data, which is problematic when memory constraints or data legality concerns exist. In this work, we consider the high-impact problem of Data-Free Class-Incremental Learning (DFCIL), where an incremental learning agent must learn new concepts over time without storing generators or training data from past tasks. One approach for DFCIL is to replay synthetic images produced by inverting a frozen copy of the learner&rsquo;s classification model, but we show this approach fails for common class-incremental benchmarks when using standard distillation strategies. We diagnose the cause of this failure and propose a novel incremental distillation strategy for DFCIL, contributing a modified cross-entropy training and importance-weighted feature distillation, and show that our method results in up to a 25.1% increase in final task accuracy (absolute difference) compared to SOTA DFCIL methods for common class-incremental benchmarks. Our method even outperforms several standard replay based methods which store a coreset of images.</p>
 
-<p>Training compact networks typically fail due to what is known as the flat spot
-problem. This is where a gradient-descent algorithm converges on a local optima due to
-diminishing gradients that disable the learning process. Consider a neuron described by
-the activation function below:</p>
-
-<p><img src="/img/wc/saturated.png" width="2000" height="1000"></p>
-
-<p>The weight update process is a function of the derivative; therefore, when the derivative
-approaches zero, the weight change will also approach zero. When this situation occurs, we
-would like to push the neuron activation back into the non-saturated region, such as:</p>
-
-<p><img src="/img/wc/unsaturated.png" width="2000" height="1000"></p>
-
-<p>This project demonstrates that it is more effective to push these saturated neurons into
-more linear regions rather than restarting with new random weights. The methodology for
-doing this describes the scope of this project. What is the most computationally efficient way to
-return neuron activation into the liner region when local optima are met? How do we determine
-when a local optima has occurred? Do we target individual neurons or the entire network?
-This algorithm explores a new systematic
-approach that can be applied to several different gradient-descent algorithms and is proven
-to find successful solutions more often than competing approaches.</p>
-
-<p>My code for this project can be found at <a href="https://github.com/jamessealesmith/nn_trainer_wc" target="_blank">https://github.com/jamessealesmith/nn_trainer_wc</a></p>
-
-
-      
-      
-      
-
-      
-        
-        
-        
-        
-          <h2>Publications</h2>
-          
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
             
-              <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="fa fa-file-text-o pub-icon" aria-hidden="true"></i>
-  <span itemprop="author">
-    James S. Smith, Bo Wu, Bogdan M. Wilamoswki</span>.
-  <a href="https://jamessealesmith.github.io/publication/weight-compression/" itemprop="name">Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a>.
-  IEEE Transactions on Neural Networks and Learning Systems,&nbsp;2018.
-  <p>
+            <a href="/publication/#3">
+              Work in progress
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">arXiv preprint arXiv:2106.09701</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            2021-06-15
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
 
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="https://ieeexplore.ieee.org/document/8405745" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/2106.09701.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -287,9 +305,6 @@ to find successful solutions more often than competing approaches.</p>
 
 
 
-<a class="btn btn-primary btn-outline btn-xs" href="/project/weight-compression/">
-  Project
-</a>
 
 
 
@@ -297,34 +312,29 @@ to find successful solutions more often than competing approaches.</p>
 
 
 
-</p>
-</div>
 
-            
-          
-        
-
-        
-        
-        
-        
-      
-
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
     </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
   </div>
-</article>
+</div>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://jamessealesmith.github.io/project/antenna/"><span
-      aria-hidden="true">&larr;</span> Thin wire antenna design using a novel branching scheme and genetic algorithm optimization</a></li>
+    <li class="previous"><a href="https://jamessealesmith.github.io/publication/stam/"><span
+      aria-hidden="true">&larr;</span> Unsupervised Progressive Learning and the STAM Architecture</a></li>
     
 
-    
-    <li class="next"><a href="https://jamessealesmith.github.io/project/stam/">Unsupervised Progressive Learning and the STAM Architecture <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -395,6 +405,17 @@ to find successful solutions more often than competing approaches.</p>
     
 
     
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
     
 
     

@@ -5,8 +5,17 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/project/sscl/</loc>
-      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+      <loc>https://jamessealesmith.github.io/publication/dfcil/</loc>
+      <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication/stam/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -15,6 +24,15 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication/sscl/</loc>
+      <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/sscl/</loc>
       <lastmod>2021-01-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,26 +50,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/stam/</loc>
-      <lastmod>2020-05-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/post/machine-learning-spotlight/</loc>
-      <lastmod>2019-11-01T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/ssl-regularization/</loc>
-      <lastmod>2019-04-10T00:00:00+00:00</lastmod>
+      <lastmod>2019-11-01T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -79,15 +79,6 @@
     
       <loc>https://jamessealesmith.github.io/publication/weight-compression/</loc>
       <lastmod>2018-07-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/gan-specificity/</loc>
-      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -132,7 +123,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/post/hkn_award/</loc>
-      <lastmod>2017-11-01T00:00:00-05:00</lastmod>
+      <lastmod>2017-11-01T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -141,7 +132,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/post/outstanding_engineer/</loc>
-      <lastmod>2017-09-03T00:00:00-05:00</lastmod>
+      <lastmod>2017-09-03T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -150,7 +141,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -159,7 +150,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -213,7 +204,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/1/</loc>
-      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -233,7 +224,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/3/</loc>
-      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+      <lastmod>2021-06-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -262,7 +253,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/tags/deep-learning/</loc>
-      <lastmod>2018-06-15T00:00:00+00:00</lastmod>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -272,7 +263,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/tags/hugo/</loc>
-      <lastmod>2019-11-01T00:00:00-05:00</lastmod>
+      <lastmod>2019-11-01T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -282,17 +273,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/tags/low-supervision/</loc>
-      <lastmod>2021-01-23T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-15T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -322,7 +303,7 @@
     <url>
     
       <loc>https://jamessealesmith.github.io/publication_types/</loc>
-      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
