@@ -33,6 +33,19 @@
   
 
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-215989105-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
 
   
 
@@ -56,6 +69,24 @@
   
 
   
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-215989105-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+  
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-215989105-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
   <title>James Smith</title>
 
@@ -245,19 +276,28 @@
 
 <h1 id="about-me">About Me</h1>
 
+<div style="text-align: left">
+<a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar</a> | <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">CV</a>
+</div>
+<br>
+<div style="text-align: justify">
+I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student in the <a href="https://ic.gatech.edu/">School of Interactive Computing</a> at <a href="https://www.gatech.edu/">Georgia Tech</a>. My advisor is <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>, who leads the <b>RobotIcs Perception and Learning (RIPL)</b> lab. My research vision is to build lifelong machine learning models which protect data privacy and <a href="https://mlco2.github.io/impact/">reduce compute</a>. To work towards my goals, I work on problems such as: <b>lifelong/continual learning, knowledge distillation, federated learning, and learning from limited labels</b>.
+<br>
+<br>
+<b> News:</b>
+<ul>
+<li>07/2021: <b>ICCV 2021</b> paper on <a href="https://arxiv.org/abs/2106.09701">data-free continual learning</a></li>
+<li>04/2021: <b>IJCAI 2021</b> paper on <a href="https://arxiv.org/abs/1904.02021">unsupervised progressive learning</a></li>
+<li>04/2021: <b>IJCNN 2021</b> paper on <a href="https://arxiv.org/abs/2101.09536">semi-supervised continual learning</a></li>
+</ul>
+</div>
+
 <p><details>
 <summary><em>Prospective Georgia Tech MS/Undergrad students: <span style="color:   #78281f  "><b>click here!</b></em></span></summary></p>
 
 <p><font size="3"><b><span style="color:  #78281f  "><em>I am looking for a MS/Undergrad student to advise and collaborate with on continual learning research. If you are a current Georgia Tech MS/Undergrad student and interested in this research area, please apply at this link:</em> <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmI_oAU-f1ejFBgdowEcKbVJZhcVIQYpC7KXQv3Cp6zW8ZWQ/viewform?usp=sf_link" >application</a>.</span></b></font></p>
 
 <p></details></p>
-
-<div style="text-align: justify">
-I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student at Georgia Tech advised by <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>. Please <a href="https://jamessealesmith.github.io/files/james_smith_cv.pdf" target="_blank">read my CV</a> or visit my <a href="https://scholar.google.com/citations?user=rT52aN8AAAAJ&hl=en">Google Scholar Page</a> for a complete overview of my work. <b> Recent news:</b> our work on <a href="https://arxiv.org/abs/2106.09701">data-free class-incremental learning</a> was presented at <b> ICCV 2021</b> and our work on <a href="https://arxiv.org/abs/1904.02021">unsupervised progressive learning</a> was presented at <b> IJCAI 2021!</b>
-<br>
-<br>
-I want to build vision systems which learn from data that is from multiple sources and distributions, where each source of this data is an incomplete sample of the full "true" data distribution. One example of this is lifelong/continual learning, where agents must learn continuously and adaptability from a visual data-stream which changes over time. Another example is federated learning, where data learning takes place on multiple edge devices. I am specifically interested in solutions where knowledge is retained or distilled with limited/no access to the original training data. This is important because we might not be able to store training data due to <b>privacy/legal concerns</b> or because it was <b>collected at scale from datastreams which can no longer be accessed.</b>
-</div>
 
 
     <div class="row">
@@ -809,14 +849,16 @@ I want to build vision systems which learn from data that is from multiple sourc
     
   </div>
   <div class="col-xs-12 col-md-8">
-    <p>At Georgia Tech, I am/was a Teaching Assistant for the following courses:</p>
+    <p>I was a Teaching Assistant for the following courses:</p>
+
+<p><b>Georgia Tech</b></p>
 
 <ul>
 <li><a href="https://sites.google.com/view/cs8803ls-fa2021/home">CS 8803-LS: Machine Learning with Limited Supervision</a> (Fall 2021).</li>
 <li><a href="https://www.ece.gatech.edu/courses/course_outline/ECE6258">ECE 6258: Digital Image Processing at Georgia Tech </a>(Fall 2018).</li>
 </ul>
 
-<p>At Auburn University, I was a Teaching Assistant for the following courses:</p>
+<p><b>Auburn University</b></p>
 
 <ul>
 <li>ELEC 2110: Electric Circuit Analysis (Summer 2017)</li>
@@ -1124,7 +1166,7 @@ I want to build vision systems which learn from data that is from multiple sourc
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2020 James Smith &middot; 
+      &copy; 2021 James Smith &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -1182,6 +1224,30 @@ I want to build vision systems which learn from data that is from multiple sourc
     
     <script src="/js/hugo-academic.js"></script>
     
+
+    
+        <script>
+            (function(i,s,o,g,r,a,m){
+                i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},
+                    i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+                m.parentNode.insertBefore(a,m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-215989105-1', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('send', 'pageview');
+
+             
+            var links = document.querySelectorAll('a');
+            Array.prototype.map.call(links, function(item) {
+                if (item.host != document.location.host) {
+                    item.addEventListener('click', function() {
+                        var action = item.getAttribute('data-action') || 'follow';
+                        ga('send', 'event', 'outbound', action, item.href);
+                    });
+                }
+            });
+        </script>
+        
 
     
     
