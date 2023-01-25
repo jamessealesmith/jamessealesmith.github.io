@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/genetic-algorithms/</loc>
+      <loc>https://jamessealesmith.github.io/publication_old/genetic-algorithms/</loc>
       <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/data-visualization/</loc>
+      <loc>https://jamessealesmith.github.io/publication_old/data-visualization/</loc>
       <lastmod>2018-11-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/weight-compression/</loc>
+      <loc>https://jamessealesmith.github.io/publication_old/weight-compression/</loc>
       <lastmod>2018-07-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/publication/spectral-pooling/</loc>
+      <loc>https://jamessealesmith.github.io/publication_old/spectral-pooling/</loc>
       <lastmod>2018-06-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -115,15 +115,6 @@
     
       <loc>https://jamessealesmith.github.io/project/antenna/</loc>
       <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/spectral/</loc>
-      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -303,6 +294,16 @@
     
       <loc>https://jamessealesmith.github.io/project/</loc>
       <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/publication_old/</loc>
+      <lastmod>2019-03-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
