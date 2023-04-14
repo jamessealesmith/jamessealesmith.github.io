@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://jamessealesmith.github.io/project/cdif/</loc>
+      <lastmod>2023-04-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/coda-prompt/</loc>
+      <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://jamessealesmith.github.io/publication/coda-prompt/</loc>
       <lastmod>2023-02-27T00:00:00+00:00</lastmod>
     </url>
@@ -16,6 +34,15 @@
     
       <loc>https://jamessealesmith.github.io/publication/construct-vl/</loc>
       <lastmod>2023-02-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/project/construct-vl/</loc>
+      <lastmod>2023-02-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -115,15 +142,6 @@
     
       <loc>https://jamessealesmith.github.io/publication_old/spectral-pooling/</loc>
       <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://jamessealesmith.github.io/project/weight-compression/</loc>
-      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -241,16 +259,6 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/tags/continual-learning/</loc>
-      <lastmod>2021-07-22T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -281,18 +289,8 @@
     
     <url>
     
-      <loc>https://jamessealesmith.github.io/tags/other/</loc>
-      <lastmod>2018-05-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://jamessealesmith.github.io/project/</loc>
-      <lastmod>2021-07-22T00:00:00+00:00</lastmod>
+      <lastmod>2023-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -333,6 +331,26 @@
     
       <loc>https://jamessealesmith.github.io/templates/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/tags/vision/</loc>
+      <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://jamessealesmith.github.io/tags/vision-language/</loc>
+      <lastmod>2023-04-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

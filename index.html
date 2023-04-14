@@ -283,18 +283,19 @@ ga('send', 'pageview');
 <i>Graduating Fall 2023 and seeking postdoc or research scientist position</i>
 <br>
 <br>
-I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student in the <a href="https://ic.gatech.edu/">School of Interactive Computing</a> at <a href="https://www.gatech.edu/">Georgia Tech</a>. My advisor is <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>, who leads the <b>RobotIcs Perception and Learning (RIPL)</b> lab. I work on continual/lifelong learning of computer vision (CV) and natural language processing (NLP) for ML models.
+I am a <a href="https://ml.gatech.edu/phd">Machine Learning Ph.D.</a> student in the <a href="https://ic.gatech.edu/">School of Interactive Computing</a> at <a href="https://www.gatech.edu/">Georgia Tech</a>. My advisor is <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>, who leads the RobotIcs Perception and Learning (RIPL) lab. I work on continual/lifelong learning of computer vision (CV) and natural language processing (NLP) for ML models.
 <br>
 <br>
 Currently, I am specifically focused on <b>continual adaptation of strongly pre-trained models</b> with an emphasis on solutions which protect data privacy and <a href="https://mlco2.github.io/impact/">reduce compute</a>. Some specific research questions that come to mind are:
 <ol>
-  <li>How can we <i>continuously adapt pre-trained models</i> to emerging and/or difficult concepts?</li>
-  <li>How can we <i>continuously customize pre-trained models</i> to personal user data? </li>
-  <li>How can we leverage continual learning ideas for <i>efficient re-training of large-scale models</i>?</li>
+  <li><b><span style="color:  #78281f  "><em>How can we <i>continuously adapt pre-trained models</i> to emerging and/or difficult concepts?</span></b> (see our CVPR 2023 works on <a href="https://arxiv.org/abs/2211.13218">ViT</a> and <a href="https://arxiv.org/abs/2211.09790">BLIP</a>)</em></li>
+  <li><b><span style="color:  #78281f  "><em>How can we <i>continuously customize pre-trained models</i> to personal user data?</span></b>(see our pre-print on <a href="https://arxiv.org/abs/2304.06027">text-to-image</a>)</em> </li>
+  <li><b><span style="color:  #78281f  "><em>How can we <i>efficiently re-train and replace large-scale models</i>?</span></b> (👀)</em></li>
 </ol>
 <b> News:</b>
 <ul>
 <li>03/2023: Accepted to <a href="https://cvpr2023.thecvf.com/Conferences/2023/CallForDoctoralConsortium">CVPR 2023 Doctoral Consortium</a></li>
+<li>03/2022: <b>CLVISION 2023</b> paper <a href="https://arxiv.org/abs/2203.17269">rehearsal-free continual learning</a></li> 
 <li>02/2023: <b>Two CVPR 2023</b> papers on continual adaptation of <a href="https://arxiv.org/abs/2211.13218">ViT for image classification</a> and <a href="https://arxiv.org/abs/2211.09790">BLIP for NLVR</a></li>
 <li>11/2022: <b>Co-Organizer</b> of AAAI 2023 Bridge on <a href="https://www.continualcausality.org/">Continual Causality</a></li> 
 <li>10/2022: <b>AIML Systems 2022</b> paper on <a href="https://arxiv.org/abs/2212.04603">lifelong reinforcement learning</a></li>
@@ -384,6 +385,192 @@ Currently, I am specifically focused on <b>continual adaptation of strongly pre-
   
   
   
+  <section id="projects" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Projects</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    
+    
+    <span class="hidden default-project-filter">*</span>
+    
+
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group">
+            
+              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
+            
+              <a href="#" data-filter=".vision-language" class="btn btn-primary btn-large">Vision &#43; Language</a>
+            
+              <a href="#" data-filter=".vision" class="btn btn-primary btn-large">Vision</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+    <div class="row isotope projects-container js-layout-masonry">
+
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision-language">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/continual-diffusion/" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/cdif/use-case.gif" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/continual-diffusion/" target="_blank">Continual Diffusion: Continual Customization of Text-to-Image Diffusion with C-LoRA</a></h4>
+            <div class="card-desription">
+              <p>We learn to generate text-conditioned images of new concepts in a sequential manner (i.e., continual learning) without forgetting.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision">
+        <div class="card">
+          
+          <a href="https://github.com/GT-RIPL/CODA-Prompt" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/cvpr2023/coda.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://github.com/GT-RIPL/CODA-Prompt" target="_blank">CODA-Prompt: COntinual Decomposed Attention-based Prompting for Rehearsal-Free Continual Learning</a></h4>
+            <div class="card-desription">
+              <p>We learn decomposed prompts for rehearsal-free continual learning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision-language">
+        <div class="card">
+          
+          <a href="https://github.com/jamessealesmith/ConStruct-VL" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/cvpr2023/construct-vl.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://github.com/jamessealesmith/ConStruct-VL" target="_blank">ConStruct-VL: Data-Free Continual Structured VL Concepts Learning</a></h4>
+            <div class="card-desription">
+              <p>We continuously adapt BLIP to new VL concepts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/dfcil/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/dfcil/ABD_Diagram.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/dfcil/" >Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning</a></h4>
+            <div class="card-desription">
+              <p>Data-Free Class-Incremental Learning, where an agent must learn new concepts over time without storing generators or training data from past tasks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/sscl/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/sscl/DM_Model_Updated.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/sscl/" >Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a></h4>
+            <div class="card-desription">
+              <p>Realistic Semi-Supervised Continual Learning, where data distributions reflect object class correlations between, and among, the labeled and unlabeled data distributions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item vision">
+        <div class="card">
+          
+          <a href="https://jamessealesmith.github.io/project/stam/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/stam/upl.png" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="https://jamessealesmith.github.io/project/stam/" >Unsupervised Progressive Learning and the STAM Architecture</a></h4>
+            <div class="card-desription">
+              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
   <section id="publications" class="home-section">
     <div class="container">
       
@@ -429,6 +616,10 @@ Currently, I am specifically focused on <b>continual adaptation of strongly pre-
 
 
 
+<a class="btn btn-primary btn-outline btn-xs" href="/project/coda-prompt/">
+  Project
+</a>
+
 
 
 
@@ -462,6 +653,10 @@ Currently, I am specifically focused on <b>continual adaptation of strongly pre-
 
 
 
+
+<a class="btn btn-primary btn-outline btn-xs" href="/project/construct-vl/">
+  Project
+</a>
 
 
 
@@ -587,143 +782,6 @@ Currently, I am specifically focused on <b>continual adaptation of strongly pre-
 </div>
 
       
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="projects" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Projects</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-    
-    <span class="hidden default-project-filter">*</span>
-    
-
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar">
-          <div class="btn-group">
-            
-              <a href="#" data-filter="*" class="btn btn-primary btn-large active">All</a>
-            
-              <a href="#" data-filter=".continual-learning" class="btn btn-primary btn-large">Continual Learning</a>
-            
-              <a href="#" data-filter=".other" class="btn btn-primary btn-large">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
-
-    
-
-    <div class="row isotope projects-container js-layout-masonry">
-
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/dfcil/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/dfcil/ABD_Diagram.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/dfcil/" >Always Be Dreaming: A New Approach for Data-Free Class-Incremental Learning</a></h4>
-            <div class="card-desription">
-              <p>Data-Free Class-Incremental Learning, where an agent must learn new concepts over time without storing generators or training data from past tasks</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/sscl/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/sscl/DM_Model_Updated.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/sscl/" >Memory-Efficient Semi-Supervised Continual Learning: The World is its Own Replay Buffer</a></h4>
-            <div class="card-desription">
-              <p>Realistic Semi-Supervised Continual Learning, where data distributions reflect object class correlations between, and among, the labeled and unlabeled data distributions</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item continual-learning">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/stam/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/stam/upl.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/stam/" >Unsupervised Progressive Learning and the STAM Architecture</a></h4>
-            <div class="card-desription">
-              <p>Learning data representations from a non-stationary stream of unlabeled data for downstream classification tasks</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item other">
-        <div class="card">
-          
-          <a href="https://jamessealesmith.github.io/project/weight-compression/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/wc/neuron_ex.png" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="https://jamessealesmith.github.io/project/weight-compression/" >Neural Network Training with Levenberg-Marquardt and Adaptable Weight Compression</a></h4>
-            <div class="card-desription">
-              <p>Gradient-descent algorithm purposed to evade the vanishing gradient problem</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-
     
 
   </div>
